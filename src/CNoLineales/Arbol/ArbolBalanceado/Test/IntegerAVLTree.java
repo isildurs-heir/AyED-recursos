@@ -1,4 +1,6 @@
-package CNoLineales.Arbol.ArbolBalanceado;
+package CNoLineales.Arbol.ArbolBalanceado.Test;
+
+import CNoLineales.Arbol.ArbolBalanceado.AVLTree;
 
 /**
  *

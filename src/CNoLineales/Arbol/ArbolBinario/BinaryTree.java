@@ -10,6 +10,10 @@ public abstract class BinaryTree implements OperacionesAB {
     public BinaryTree(){
         this.root = null;
     }
+    
+    public NodeBinaryTree getRoot(){
+        return this.root;
+    }
 
 
     @Override

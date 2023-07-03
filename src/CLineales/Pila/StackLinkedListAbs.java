@@ -3,10 +3,10 @@ package CLineales.Pila;
 import CLineales.operaciones.OperacionesCL1;
 import CLineales.recursos.Node;
 
-public class  StackLinkedList implements OperacionesCL1{
+public class  StackLinkedListAbs implements OperacionesCL1{
     private Node stack;
     
-    public StackLinkedList(){
+    public StackLinkedListAbs(){
         stack = null;
     }
     
@@ -44,3 +44,4 @@ public class  StackLinkedList implements OperacionesCL1{
     }
     
 }
+

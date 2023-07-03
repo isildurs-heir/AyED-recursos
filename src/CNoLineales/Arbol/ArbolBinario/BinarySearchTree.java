@@ -28,7 +28,7 @@ public abstract class BinarySearchTree extends BinaryTree {
                     temp = temp.getRigthChild();
                 }
             }
-            if(minor(prev.getInfo(),element) || equals(prev.getInfo(),element)){
+            if(minor(prev.getInfo(),element) || equals(prev.getInfo(),element)){ // aqui modificar para que no acepte iguales
                 prev.setRigthChild(node);
             }
             else{

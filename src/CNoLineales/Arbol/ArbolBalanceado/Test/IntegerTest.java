@@ -1,11 +1,11 @@
+package CNoLineales.Arbol.ArbolBalanceado.Test;
 
-package CNoLineales.Arbol.ArbolBalanceado;
 
 /**
  *
  * @author mithrandir
  */
-public class Test {
+public class IntegerTest {
    public static void main(String[] args){
        IntegerAVLTree t1 = new IntegerAVLTree();
        t1.add(4);
@@ -15,6 +15,8 @@ public class Test {
        t1.add(3);
        t1.add(9);
        t1.add(11);
+       t1.add(7);
+       t1.add(8);
        t1.muestraInOrder();
        System.out.println("***");
        t1.muestraPostOrder();

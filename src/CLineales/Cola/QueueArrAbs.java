@@ -14,7 +14,11 @@ public abstract class QueueArrAbs implements OperacionesCL1 {
     
     @Override
     public boolean isEmpty(){
-        return (first ==last);
+        return (first == last);
+    }
+    
+    public int size(){
+        return this.tam;
     }
     
     @Override
@@ -69,6 +73,11 @@ public abstract class QueueArrAbs implements OperacionesCL1 {
             System.out.println("Error. Cola vacia");
         }
         return element;
+    }
+
+    @Override
+    public void clean() {
+        this.first = this.last = 0;
     }
     
 }

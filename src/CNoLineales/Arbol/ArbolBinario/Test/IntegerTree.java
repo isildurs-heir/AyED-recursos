@@ -1,4 +1,7 @@
-package CNoLineales.Arbol.ArbolBinario;
+package CNoLineales.Arbol.ArbolBinario.Test;
+
+import CNoLineales.Arbol.ArbolBinario.BinarySearchTree;
+import CNoLineales.Arbol.ArbolBinario.BinarySearchTree;
 
 public class IntegerTree extends BinarySearchTree{
     

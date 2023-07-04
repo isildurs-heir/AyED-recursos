@@ -15,6 +15,7 @@ public class Test {
             g1 = new NDGraph(orden);
             g1.cargaGraph(data);
             g1.muestraGraph();
+            System.out.println(g1.gradoNodo(1));
             //g1.muestraBEA();
             //g1.muestraPrim(0);
             g1.muestraKurskal();

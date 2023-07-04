@@ -154,4 +154,14 @@ public abstract class NDGraphAbs extends GraphAbs implements OperacionesGND {
             }
         }
     }
+    
+    public int gradoNodo(int node){
+        int cnt = 0;
+        for(int i=0; i<getOrder();i++){
+            if(this.matrixCost.areConnected(node, i)){
+                cnt++;
+            }
+        }
+        return cnt;
+    }
 }
